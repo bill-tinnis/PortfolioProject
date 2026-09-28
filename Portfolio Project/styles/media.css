@@ -1,0 +1,35 @@
+@media (max-width: 615px) {
+    /* header and footer */
+    .nav-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .nav-wrapper > .nav-bar-wrapper {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .nav-bar-wrapper a {
+        margin: 10px;
+        font-size: 2em;
+    }
+
+    .first-name, .last-name {
+        font-size: 2em;
+    }
+
+    .icons a {
+        font-size: 2em;
+    }
+
+    /*projects */
+    .projects-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .projects-wrapper > .projects-content-wrapper {
+        flex-direction: column;
+    }
+}

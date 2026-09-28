@@ -1,0 +1,46 @@
+/* Navigation wrapper styles */
+.nav-wrapper {
+    background-color: #F7A8D2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-wrapper > .left-side {
+    padding: 140px 45px 0px 45px;
+}
+
+.nav-wrapper > .left-side > .name {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.nav-wrapper > .left-side > .port {
+    font-family: "Tai Heritage Pro", serif;
+    font-size: 2em;
+    margin-top: -35px;
+    opacity: 0.7;
+}
+
+.nav-wrapper > .nav-bar-wrapper {
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 45px 20px 45px;
+}
+
+.nav-wrapper > .nav-bar-wrapper > .nav {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-wrapper >.nav-bar-wrapper > .nav:hover {
+    color: #f7f4a8;
+    letter-spacing: 2px;
+}
+
