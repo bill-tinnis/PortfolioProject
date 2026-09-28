@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    color: #f16ab2;
+    font-family: "Playfair Display", serif;
+}
+
+h4 {
+    color: #f16ab2;
+    font-family: "Playfair Display", serif;
+    font-size: 1.5em;  
+    margin-bottom: 0px;  
+}
+
+p, ul, li {
+    letter-spacing: 1px;
+    font-family: "Roboto Slab", serif;
+    font-size: 0.9em;
+    line-height: 30px;
+}
+
+/* spacers */
+.spacer80 {
+    height: 80px;
+    width: 100%;
+}
+
+.spacer20 {
+    height: 20px;
+    width: 100%
+}
+
+.spacer40 {
+    height:40px;
+    width: 100%;
+}

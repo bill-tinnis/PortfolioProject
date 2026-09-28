@@ -1,0 +1,54 @@
+/*navigation*/
+.nav-wrapper > .nav-bar-wrap > .nav {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    width: 100%;
+    padding: 40px;
+}
+
+.nav-wrapper >.nav-bar-wrap > .nav:hover {
+    color: #f7f4a8;
+    letter-spacing: 2px;
+}
+
+.nav-bar-wrap {
+    padding-bottom: 30px;
+}
+
+/*shared*/
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+/*a-levelpage*/
+.content-wrapper {
+    width: 600px;
+}
+
+.certs-wrapper img {
+    width:600px;
+    height: 100%;
+}
+
+/*gcse-page*/
+.gcse-content-wrapper {
+    width: 1000px;
+}
+
+.Gcerts-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.cert-image-wrapper img{
+    width:475px;
+    height: 100%;
+}

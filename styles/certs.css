@@ -1,0 +1,55 @@
+.certs-heading {
+    font-size: 2em;
+}
+
+.certs-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.certs-wrapper > .certs-content-wrapper {
+    width: 1000px;
+}
+
+.certs-wrapper > .certs-content-wrapper > .certs-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.cert-box > .top-area > .left-column img {
+    width: 500px;
+    height: 100%;
+}
+
+.cert-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+}
+
+.top-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.left-column {
+    display:flex;
+    justify-content: center;
+}
+
+.left-column a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.left-column a:hover{
+    color: #f7f4a8;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+}
+
