@@ -1,9 +1,0 @@
-.page-container{
-    display:flex;
-    justify-content: center;
-}
-
-.page-container > .info-wrapper {
-    width: 1000px;
-    height: 100%;
-}
